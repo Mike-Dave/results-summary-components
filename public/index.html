@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-hanken bg-paleBlue">
+    <main
+      class="md:grid md:grid-cols-2 md:max-w-[550px] md:h-screen md:items-center md:justify-center md:mx-auto"
+    >
+      <!-- First Section -->
+      <section class="bg-white">
+        <section
+          id="first-section"
+          class="bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue text-center rounded-b-[40px] p-2 text-white md:rounded-[20px] bg-white md:p-4"
+        >
+          <p class="p-4 pb-6">Your Result</p>
+          <div
+            class="flex items-center flex-col justify-center bg-gradient-to-b from-violetBlue to-persianBlue rounded-full p-2 mx-auto w-[130px] h-[130px] gap-y-2"
+          >
+            <p class="text-5xl p-1 font-bold">76</p>
+            <p class="text-[#ffffff80] text-sm">of 100</p>
+          </div>
+          <p class="text-2xl tracking-wider p-2">Great</p>
+          <p class="text-lightLavender px-8 pb-6 md:text-sm md:px-5">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+      </section>
+
+      <!-- Second Section -->
+      <section id="second-section" class="bg-white px-4 md:py-[14.5px] pb-4">
+        <h3 class="pl-4 p-3 text-lg font-bold text-darkGrayBlue">Summary</h3>
+        <div class="flex flex-col justify-center gap-4 items-center md:gap-3">
+          <!-- Reaction -->
+          <div
+            class="flex justify-between w-11/12 p-3 bg-[#ff575810] rounded-lg md:p-2"
+          >
+            <div class="flex space-x-2">
+              <img src="images/icon-reaction.svg" alt="a blitz sign" />
+              <p class="text-lightRed">Reaction</p>
+            </div>
+            <div class="flex">
+              <p class="text-darkGrayBlue font-bold">80</p>
+              <span class="ml-1 text-gray-400">/ 100</span>
+            </div>
+          </div>
+          <!-- Memory -->
+          <div
+            class="flex justify-between w-11/12 p-3 bg-[#ffb02010] rounded-lg md:p-2"
+          >
+            <div class="flex space-x-2">
+              <img src="images/icon-memory.svg" alt="a yellow painted brain" />
+              <p class="text-orangeYellow">Memory</p>
+            </div>
+            <div class="flex">
+              <p class="text-darkGrayBlue font-bold">92</p>
+              <span class="ml-1 text-gray-400">/ 100</span>
+            </div>
+          </div>
+          <!-- Verbal -->
+          <div
+            class="flex justify-between w-11/12 p-3 bg-[#03bd9110] rounded-lg md:p-2"
+          >
+            <div class="flex space-x-2">
+              <img src="images/icon-verbal.svg" alt="a yellow painted brain" />
+              <p class="text-greenTeal">Verbal</p>
+            </div>
+            <div class="flex">
+              <p class="text-darkGrayBlue font-bold">61</p>
+              <span class="ml-1 text-gray-400"> / 100 </span>
+            </div>
+          </div>
+          <!-- Visual -->
+          <div
+            class="flex justify-between w-11/12 p-3 bg-[#1126d410] rounded-lg md:p-2 md:mb-4"
+          >
+            <div class="flex space-x-2">
+              <img src="images/icon-visual.svg" alt="a yellow painted brain" />
+              <p class="text-cobaltBlue">Visual</p>
+            </div>
+            <div class="flex">
+              <p class="text-darkGrayBlue font-bold">72</p>
+              <span class="ml-1 text-gray-400"> / 100</span>
+            </div>
+          </div>
+          <button
+            class="rounded-full bg-darkGrayBlue p-3 w-11/12 text-white mb-3 cursor-pointer font-medium md:p-2 hover:bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue transition ease-out duration-500 hover:-translate-y-2"
+          >
+            Continue
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- 
+   -->
+  </body>
+</html>
