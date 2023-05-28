@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-| ![Results Summary Component](public/images/desktop-screeenshot.png) | ![Results Summary Component](public/images/mobile-screenshot.png) |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![Results Summary Component](images/desktop-screeenshot.png) | ![Results Summary Component](images/mobile-screenshot.png) |
+| ------------------------------------------------------------ | ---------------------------------------------------------- |
 
 ### Links
 
