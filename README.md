@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [My Solution](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [My Solution](https://www.frontendmentor.io/solutions/results-summary-component-By7kJdogvA)
+- [Live Site URL](https://mike-dave.github.io/results-summary-components/)
 
 ## My process
 
